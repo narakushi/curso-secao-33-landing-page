@@ -4,7 +4,7 @@
     top: -8rem;
     grid-template-columns: 1fr 1.5fr;
     gap: var(--gap);
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .intro-text-content,
@@ -22,15 +22,16 @@
 .top3-content {
     max-width: 64rem;
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
+    flex-wrap: nowrap;
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
     justify-content: center;
     text-align: center;
 }
 
 .grid-one-content {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
