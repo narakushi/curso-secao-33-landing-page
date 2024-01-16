@@ -181,7 +181,7 @@ footer p {
     align-items: center;
     border-radius: 50%;
     color: var(--primary-color);
-    transform: rotate(-94deg);
+    transform: rotate(-90deg);
     border: 0.1rem solid var(--primary-color)
 }
 
