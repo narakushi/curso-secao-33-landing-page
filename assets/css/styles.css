@@ -254,4 +254,8 @@ footer p {
     .menu-spacing {
         height: 0;
     }
+
+    h2 {
+        font-size: 4rem;
+    }
 }
